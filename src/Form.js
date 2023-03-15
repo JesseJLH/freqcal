@@ -12,9 +12,13 @@ const Form = () => {
     const y = parseFloat(toBpm);
     const z = parseFloat(fromBpm);
 
-    const a = ((y / z) * x) - x;
-    const b = a / (x / 12);
-
+    if (y >= z) {
+        const a = ((y / z) * x) - x;
+        const b = a / (x / 12);
+      } else {
+        const a = ((y / z) * x) - (x/2);
+        const b = a / (x / 12);
+      } 
     setB(b.toFixed(2));
     console.log('B:', b);
   };
