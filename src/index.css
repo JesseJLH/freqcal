@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #c134f0, #482173);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  width: 400px;
+}
+
+label {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+input[type="number"],
+select {
+  background: none;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  font-size: 16px;
+  margin: 10px;
+  width: 100%;
+  max-width: 200px;
+  color: #fff;
+  text-align: center;
+}
+
+option {
+  color: #482173;
+}
+
+button[type="submit"] {
+  background-color: #fff;
+  color: #482173;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 200px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27 viewBox%3D%270 0 512 512%27%3E%3Cpath d%3D%27M442.3 149.3l-16-16c-6.2-6.2-16.4-6.2-22.6 0L256 293.9 106.3 144.3c-6.2-6.2-16.4-6.2-22.6 0l-16 16c-6.2 6.2-6.2 16.4 0 22.6l171.3 171.3c6.2 6.2 16.4 6.2 22.6 0l171.3-171.3c6.2-6.2 6.2-16.4 0-22.6z%27/%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 12px auto;
+  padding-right: 30px;
+}
+
+p {
+  color:#fff;
+}
+
+
+
+
+
+
+
+
