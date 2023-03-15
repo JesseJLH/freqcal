@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/freqcal/static/css/main.fea0ccaf.css",
-    "main.js": "/freqcal/static/js/main.7e1ba15b.js",
+    "main.js": "/freqcal/static/js/main.eb8705f9.js",
     "static/js/787.ff9c15a4.chunk.js": "/freqcal/static/js/787.ff9c15a4.chunk.js",
     "index.html": "/freqcal/index.html",
     "main.fea0ccaf.css.map": "/freqcal/static/css/main.fea0ccaf.css.map",
-    "main.7e1ba15b.js.map": "/freqcal/static/js/main.7e1ba15b.js.map",
+    "main.eb8705f9.js.map": "/freqcal/static/js/main.eb8705f9.js.map",
     "787.ff9c15a4.chunk.js.map": "/freqcal/static/js/787.ff9c15a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fea0ccaf.css",
-    "static/js/main.7e1ba15b.js"
+    "static/js/main.eb8705f9.js"
   ]
 }
